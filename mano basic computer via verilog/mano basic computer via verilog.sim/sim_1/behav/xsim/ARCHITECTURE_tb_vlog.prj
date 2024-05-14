@@ -1,0 +1,31 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../mano_basic_computer.srcs/sources_1/new/ACCUMULATOR.v" \
+"../../../../mano_basic_computer.srcs/sources_1/new/AC_DESIGN.v" \
+"../../../../mano_basic_computer.srcs/sources_1/new/ADRESS_REGISTER.v" \
+"../../../../mano_basic_computer.srcs/sources_1/new/ALU.v" \
+"../../../../mano_basic_computer.srcs/sources_1/new/ARCHITECTURE.v" \
+"../../../../mano_basic_computer.srcs/sources_1/new/AR_DESIGN.v" \
+"../../../../mano_basic_computer.srcs/sources_1/new/BUS_DESIGN.v" \
+"../../../../mano_basic_computer.srcs/sources_1/new/BUS_SELECTION.v" \
+"../../../../mano_basic_computer.srcs/sources_1/new/CONTROLER.v" \
+"../../../../mano_basic_computer.srcs/sources_1/new/DECODER.v" \
+"../../../../mano_basic_computer.srcs/sources_1/new/DECODER3_8.v" \
+"../../../../mano_basic_computer.srcs/sources_1/new/DR_DESIGN.v" \
+"../../../../mano_basic_computer.srcs/sources_1/new/ENCODER8_3.v" \
+"../../../../mano_basic_computer.srcs/sources_1/new/INSTRUCRION_REGISTER.v" \
+"../../../../mano_basic_computer.srcs/sources_1/new/INSTRUCTION_REGISTER.v" \
+"../../../../mano_basic_computer.srcs/sources_1/new/IR-DESIGN.v" \
+"../../../../mano_basic_computer.srcs/sources_1/new/MEMORY_DESIGN.v" \
+"../../../../mano_basic_computer.srcs/sources_1/new/PC_DESIGN.v" \
+"../../../../mano_basic_computer.srcs/sources_1/new/PROGRAM_COUNTER.v" \
+"../../../../mano_basic_computer.srcs/sources_1/new/SC_DESIGN.v" \
+"../../../../mano_basic_computer.srcs/sources_1/new/SequenceCounter.v" \
+"../../../../mano_basic_computer.srcs/sources_1/new/memory.v" \
+"../../../../mano_basic_computer.srcs/sim_1/new/ARCHITECTURE_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
